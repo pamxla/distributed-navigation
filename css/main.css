@@ -13,10 +13,33 @@ img {
 }
 
 body {
-  margin: .5rem;
+  margin: 0;
 
 }
 
 header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75em 1em .6em;
+  background-color: #e2e2e2
+}
+
+header nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #0074d9
+  padding: 1rem;
+  margin: .5rem;
+}
+
+main {
+  background-color: #fff
 }
