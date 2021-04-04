@@ -11,3 +11,12 @@ html {
 img {
   width: 2rem;
 }
+
+body {
+  margin: .5rem;
+
+}
+
+header {
+  display: flex;
+}
