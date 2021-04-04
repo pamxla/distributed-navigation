@@ -22,9 +22,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #e2e2e2;
   margin: auto;
   padding: .6rem;
+  background-color: #e2e2e2;
 }
 
 header h1 {
@@ -45,12 +45,16 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: .5rem;
+
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #0074d9;
 }
 
 nav a {
   text-decoration: none;
-  color: #0074d9;
   padding: 1rem;
   font-size: 1.125rem;
+  flex-wrap: wrap;
 }
