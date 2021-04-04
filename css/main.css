@@ -51,10 +51,13 @@ nav ul {
   flex-wrap: wrap;
 }
 
+nav a:hover {
+  color: #0074d9;
+}
+
 nav a {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.125rem;
   flex-wrap: wrap;
-  color: #0074d9;
 }
