@@ -13,7 +13,7 @@ img {
 }
 
 body {
-  margin: auto;
+  margin: 0;
 }
 
 header {
@@ -21,8 +21,19 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: .75em 1em .6em;
   background-color: #e2e2e2;
+  margin: auto;
+  padding: .6rem;
+}
+
+header h1 {
+  margin: .5rem;
+  padding-left: 1.5em;
+}
+
+header img {
+  position: fixed;
+  margin: .5rem;
 }
 
 header p {
@@ -32,7 +43,7 @@ header p {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: .5rem;
   display: flex;
 }
 
@@ -40,5 +51,5 @@ nav a {
   text-decoration: none;
   color: #0074d9;
   padding: 1rem;
-  margin: .5rem;
+  font-size: 1.125rem;
 }
