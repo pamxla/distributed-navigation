@@ -45,11 +45,11 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: .5rem;
+  color: #0074d9;
 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: #0074d9;
 }
 
 nav a {
