@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: sans-serif;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
